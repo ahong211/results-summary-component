@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  --white: hsl(0, 100%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --navy-950: hsl(224, 30%, 27%);
+  --navy-200: hsl(241, 100%, 89%);
+  --navy-50: hsl(221, 100%, 96%);
+  --blue-800: hsl(234, 85%, 45%);
+  --blue-50: hsl(234, 71%, 97%);
+  --yellow-400: hsl(39, 100%, 56%);
+  --yellow-50: hsl(38, 100%, 98%);
+  --red-400: hsl(0, 100%, 67%);
+  --red-50: hsl(0, 100%, 98%);
+  --green-500: hsl(166, 100%, 37%);
+  --green-50: hsl(162, 63%, 97%);
+  --gradient-primary: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  --gradient-circle: linear-gradient(
+    to bottom,
+    hsl(256, 71%, 46%),
+    hsl(241, 72%, 46%)
+  );
+
+  --text: var(--navy-950);
+  --bg: var(--blue-50);
+  --shadow: 0 30px 60px 0 rgb(61 108 236 / 0.15);
+
+  --sans: "Hanken Grotesk", sans-serif;
+
+  font: 1rem/1.3 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
