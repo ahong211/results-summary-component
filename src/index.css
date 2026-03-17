@@ -30,6 +30,7 @@
 
   --text: var(--navy-950);
   --bg: var(--blue-50);
+  --bg-summary: var(--white);
   --shadow: 0 30px 60px 0 rgb(61 108 236 / 0.15);
 
   --sans: "Hanken Grotesk", sans-serif;
@@ -49,4 +50,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+main {
+  background-color: var(--bg-summary);
+  display: grid;
 }
