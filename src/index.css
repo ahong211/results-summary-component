@@ -55,4 +55,5 @@
 main {
   background-color: var(--bg-summary);
   display: grid;
+  gap: 1.5rem;
 }
