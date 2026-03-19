@@ -1,0 +1,16 @@
+.buttonWrapper {
+  background-color: var(--navy-950);
+  color: var(--white);
+  width: 100%;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: 1rem 0;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+.buttonWrapper:hover {
+  background: var(--gradient-primary);
+}
