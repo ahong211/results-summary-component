@@ -25,7 +25,7 @@
   --gradient-circle: linear-gradient(
     to bottom,
     hsl(256, 71%, 46%),
-    hsl(241, 72%, 46%)
+    hsl(241, 72%, 46%, 0)
   );
 
   --text: var(--navy-950);
