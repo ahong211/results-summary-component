@@ -8,7 +8,7 @@ const SummaryItem = ({ category, score, icon }) => {
     <div className={`${styles.summaryItemWrapper} ${styles[categoryClass]}`}>
       <div className={styles.itemGroupContainer}>
         <img src={icon} alt="icon for category" />
-        <p className={styles.categoryLabel}>{category}</p>
+        <p className={`${styles.label} ${styles.categoryLabel}`}>{category}</p>
       </div>
 
       <p className={styles.pointsLabel}>

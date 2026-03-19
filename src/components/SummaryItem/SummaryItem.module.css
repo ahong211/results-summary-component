@@ -3,11 +3,25 @@
   justify-content: space-between;
   padding: 1rem 1rem;
   border-radius: 12px;
+
+  @media (min-width: 45.625rem) {
+    padding: 1rem 1.0625rem;
+  }
+
+  @media (min-width: 56.25rem) {
+    padding: 1rem 1.1875rem;
+  }
 }
 
 .itemGroupContainer {
   display: flex;
   gap: 1rem;
+}
+
+.label {
+  @media (min-width: 45.625rem) {
+    font-size: 1.125rem;
+  }
 }
 
 .pointsLabel {

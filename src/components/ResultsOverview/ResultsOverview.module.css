@@ -13,6 +13,10 @@
     gap: 2rem;
     padding: 45px 69px;
   }
+
+  @media (min-width: 56.25rem) {
+    padding: 2.8125rem 3.375rem;
+  }
 }
 
 .resultsTitle {
@@ -84,7 +88,6 @@
 .description {
   margin-top: 1rem;
   color: var(--navy-200);
-  font-weight: 500;
 
   @media (min-width: 45.625rem) {
     font-size: 1.125rem;
