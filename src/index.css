@@ -52,8 +52,24 @@
   padding: 0;
 }
 
+body {
+  @media (min-width: 45.625rem) {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+}
+
 main {
   background-color: var(--bg-summary);
   display: grid;
   gap: 1.5rem;
+
+  @media (min-width: 45.625rem) {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    max-width: 42.875rem;
+    border-radius: 32px;
+    overflow: hidden;
+  }
 }
