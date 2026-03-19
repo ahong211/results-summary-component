@@ -1,17 +1,18 @@
 import React from "react";
-import reactionIcon from "../../assets/icon-reaction.svg";
 import styles from "./SummaryItem.module.css";
 
-const SummaryItem = () => {
+const SummaryItem = ({ category, score, icon }) => {
+  const categoryClass = category.toLowerCase();
+
   return (
-    <div className={styles.summaryItemWrapper}>
+    <div className={`${styles.summaryItemWrapper} ${styles[categoryClass]}`}>
       <div className={styles.itemGroupContainer}>
-        <img src={reactionIcon} alt="red lightning bolt icon" />
-        <p className={styles.categoryLabel}>Reaction</p>
+        <img src={icon} alt="icon for category" />
+        <p className={styles.categoryLabel}>{category}</p>
       </div>
 
       <p className={styles.pointsLabel}>
-        80 <span className={styles.totalPointsLabel}>/ 100</span>
+        {score} <span className={styles.totalPointsLabel}>/ 100</span>
       </p>
     </div>
   );

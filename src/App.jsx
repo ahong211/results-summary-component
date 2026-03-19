@@ -1,6 +1,7 @@
 import "./App.css";
 import ResultsOverview from "./components/ResultsOverview/ResultsOverview";
 import SummaryItem from "./components/SummaryItem/SummaryItem";
+import { data } from "./data.js";
 
 function App() {
   return (
@@ -8,7 +9,14 @@ function App() {
       <ResultsOverview />
       <section className="summarySection">
         <h2>Summary</h2>
-        <SummaryItem />
+        {data.map(({ category, score, icon }) => (
+          <SummaryItem
+            key={category}
+            category={category}
+            score={score}
+            icon={icon}
+          />
+        ))}
       </section>
     </main>
   );
