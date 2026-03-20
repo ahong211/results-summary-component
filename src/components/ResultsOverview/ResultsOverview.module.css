@@ -7,11 +7,13 @@
   gap: 1.5rem;
   padding: 2rem 3.625rem;
   border-radius: 0 0 2rem 2rem;
+  box-shadow: var(--shadow);
 
   @media (min-width: 45.625rem) {
     border-radius: 0 2rem 2rem 0;
     gap: 2rem;
     padding: 2.8125rem 4.3125rem;
+    box-shadow: none;
   }
 
   @media (min-width: 56.25rem) {
