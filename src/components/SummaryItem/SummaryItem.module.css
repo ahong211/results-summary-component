@@ -1,7 +1,7 @@
 .summaryItemWrapper {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 1rem;
   border-radius: 12px;
 
   @media (min-width: 45.625rem) {

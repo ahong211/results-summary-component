@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./SummaryItem.module.css";
 
 const SummaryItem = ({ category, score, icon }) => {
@@ -7,7 +6,7 @@ const SummaryItem = ({ category, score, icon }) => {
   return (
     <div className={`${styles.summaryItemWrapper} ${styles[categoryClass]}`}>
       <div className={styles.itemGroupContainer}>
-        <img src={icon} alt="icon for category" />
+        <img src={icon} alt="" />
         <p className={`${styles.label} ${styles.categoryLabel}`}>{category}</p>
       </div>
 
