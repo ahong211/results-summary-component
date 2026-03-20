@@ -9,7 +9,7 @@ This is my solution to the [Results summary component](https://www.frontendmento
 ## Links
 
 - [GitHub URL](https://github.com/ahong211/results-summary-component)
-- [Live Site URL]()
+- [Live Site URL](https://results-summary-component-nu-orcin.vercel.app/)
 
 ## Built with
 
